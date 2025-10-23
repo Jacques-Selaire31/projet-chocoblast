@@ -1,5 +1,5 @@
 {
-    "name": "mathieumithridate/chocoblast",
+    "name": "victor/chocoblast",
     "description": "Projet de cours sur le théme chocoblast",
     "type": "project",
     "license": "MIT",
@@ -10,10 +10,16 @@
     },
     "authors": [
         {
-            "name": "mithridatem",
-            "email": "mathieumithridate@adrar-formation.com"
+            "name": "victor",
+            "email": "serra.victor@yahoo.fr"
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require-dev": {
+        "symfony/var-dumper": "7.4.x-dev"
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.6@dev",
+        "mithridatem/router": "dev-main"
+    }
 }
